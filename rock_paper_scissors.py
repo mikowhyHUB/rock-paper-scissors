@@ -10,6 +10,7 @@ user_count = 0
 comp_count = 0
 options = ['rock', 'paper', 'scissors']
 print('\nWelcome to the rock, paper, scissors game!\nThe Rules are:\n1. Pick one of three options\n2. After your pick, you will get the results.\n3. If you want to quit and see scores, type "q"')
+print('--------------------------------------------')
 
 # adding while true for mulitple options
 while True:
@@ -17,7 +18,7 @@ while True:
     # making quit option and protect program from wrong input
     if user_choice == 'q':
         break
-    if user_choice not in options:  # do zabezpieczenia przed errorami
+    if user_choice not in options:
         print('Wrong pick. Only rock, paper, scissors accepted.')
         continue
     # using randint for computer choice
