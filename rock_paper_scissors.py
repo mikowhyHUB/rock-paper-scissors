@@ -1,9 +1,6 @@
 from random import choice
 '''
-plan na apke:
-1. stworzyc podstawowe opcje
-2. dodac bajery
-3. zrobić jak najbardziej profesjonalna
+TODO: improve from sphagetti to clean code
 '''
 # make variables for counting and what are users options
 user_count = 0
